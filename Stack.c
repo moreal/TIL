@@ -21,13 +21,13 @@ char check_flows() //오버플로우 여부를 확인 합니다.
 {
 	if (top < -1)
 	{
-		top++;
+		++top;
 		setcolor(12); printf("[ERROR]"); setcolor(11); printf(" Underflow 발생.\a\n\n"); setcolor(15);
 		return 1;
 	}
 	else if (top >= MAX)
 	{
-		top--;
+		--top;
 		setcolor(12); printf("[ERROR]"); setcolor(11); printf(" Overflow 발생.\a\n\n"); setcolor(15);
 		return 1;
 	}
