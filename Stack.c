@@ -49,9 +49,8 @@ int pop() //스택에서 팝합니다.
 	--top;
 	if (check_flows() != 1)
 	{
-		setcolor(11); printf(" %d", stack[top+1]);
-		setcolor(15); printf("을 팝했습니다\n\n", stack[top+1]);
 		stack[top+1] = input;
+		return stack[top];
 	}
 }
 
@@ -74,7 +73,7 @@ int main() // 메인함수
 		scanf_s("%d", &input);
 		switch (input)
 		{
-		case POP: pop(); break;
+		case POP: setcolor(15); printf("%d을 팝했습니다\n\n", pop()); break;
 		case EXIT: system("cls"); system("mode con: lines=1 cols=42"); setcolor(11); printf("안녕히 가세요 종료하려면 아무키나 누르세요"); _getch(); return 0; break;
 		default: push(); break;
 		}
