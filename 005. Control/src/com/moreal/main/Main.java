@@ -17,7 +17,7 @@ public class Main {
 		switch(str) // switch 문에서 또한 C언어와 달리 문자열을 통한 비교가 가능하다.
 		{
 		case "HelloWorld!":
-			break; // 만약 break가 없다면 "HelloWorld!"를 입력 받았을 때 아래의 모든 과정또한 거치게 될것이다. 
+			break; // 만약 break가 없다면 "HelloWorld!"를 입력 받았을 때 아래의 모든 과정또한 거치게 될것이 
 		case "MySQL":
 			break;
 		default:
