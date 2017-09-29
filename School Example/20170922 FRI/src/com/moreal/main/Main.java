@@ -65,6 +65,6 @@ public class Main {
 		
 		System.out.print("Food: ");
 		for(String name : Food)
-			System.out.print(name + " ");
+			System.out.print(name + " ");	
 	}
 }
