@@ -158,9 +158,9 @@ int main()
 		des2 = toInt(temp);
 		
 		if (des1 > 10 || des1 < 0 || des1 != des2)
-			printf("NO");
+			printf("No");
 		else
-			printf("YES");
+			printf("Yes");
 			
 		if(C != 1)
 			putchar('\n');
@@ -177,18 +177,20 @@ char left, right, oper;
 
 unsigned int T;
 
-int toInt(char* src)
+char toInt(char* src)
 {
-	char temp, i, j;
-
+	char temp, i = 0, j = 0;
+	
 	for(i = 0; src[i]; ++i)
 		for(j = i + 1; src[j]; ++j)
 			if(src[i] > src[j])
 				temp = src[i], src[i] = src[j], src[j] = temp;
-
+	
 	for(i = 0; i < 11; ++i)
 		if(!strcmp(nums[i], src))
 			break;
+			
+	//puts(src);
 			
 	if(i == 11)
 		return -50;
@@ -197,9 +199,7 @@ int toInt(char* src)
 }
 
 int main()
-{
-	printf("11%d",toInt(&"zero"));
-	
+{	
 	scanf("%u",&T);
 	
 	for(; T; --T)
@@ -231,9 +231,14 @@ int main()
 		right = toInt(temp); // result
 		
 		if(left > 10 || left < 0 || left != right)
-			puts("NO");
+			printf("No");
 		else
-			puts("YES");
+			printf("Yes");
+			
+		if(T > 1)
+			putchar('\n');
 	}
 	return 0;
 }
+
+// 틀렸던 이유 : Yes No 가 답이지만 YES NO 로 작성하였기 때문이다. 
