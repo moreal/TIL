@@ -168,6 +168,14 @@ int main()
 	return 0;
 } First Try */
 
+/////////////////////
+//
+// Solved By Moreal
+// 2017.10.27
+// 삽질의 끝을 보았다. 
+//
+/////////////////////
+
 #include <stdio.h>
 #include <string.h>
 

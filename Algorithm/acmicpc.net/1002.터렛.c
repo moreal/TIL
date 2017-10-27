@@ -1,3 +1,10 @@
+/////////////////////
+//
+// Solved By Moreal
+// 2017.10.26
+//
+/////////////////////
+
 #include <stdio.h>
 #include <math.h>
 
