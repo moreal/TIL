@@ -24,7 +24,7 @@ int main()
 	char * nNum = (char*)malloc(sizeof(char)*10);
 	
 	while(1){
-	printf("몇진수 ( 2진수부터 62진수까지 지원합니다) : ");
+	printf("몇진수 ( 2진수부터 62진수까지 지원합니다 ) : ");
 	scanf("%d", &nInLaunch);
 	
 	if(nInLaunch>62 || nInLaunch<2) { printf("[Error] 맞지 않는 진수를 입력하신것 같습니다!\n\n"); continue;}
