@@ -1,8 +1,9 @@
-# TIL C++
-## Study plan about C++
-C++은절자지향적이였던 C에서 객체의 개념을 더한 것이다.  
-C와 비슷한 부분이 많기에 C++ 만의 것만을 다루도록 하겠다.
-
-## Detail
-* Basic of C++
-* Network in C++
+# TIL-JAVA
+## Start of TIL-JAVA
+### In the past, I studied JAVA while I was making Minecraft Plugin.
+### Then one day I thought 'I need to study more about JAVA'.
+### So this time, I will study with a book. My plan is as follows.
+#### > Basic of JAVA
+#### > GUI of JAVA
+#### > Making Simple Server with JAVA
+#### > Making Simple Chating Program with JAVA
