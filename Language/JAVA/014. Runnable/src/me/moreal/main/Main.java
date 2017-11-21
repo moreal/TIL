@@ -6,7 +6,7 @@ public class Main {
 	 * Runnable : 스레드에서 실행 가능한 객체. 
 	 * Runnable을 사용하기 위해서는 Thread로 감싸서 사용해야 하는 듯하다.
 	 * 
-	 * Excutor
+	 * Excutor : Runnable 을 실행 시켜주는 객체
 	 */
 	
 	public static void main(String[] args)
